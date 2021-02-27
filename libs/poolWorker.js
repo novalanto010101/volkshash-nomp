@@ -175,9 +175,16 @@ module.exports = function(logger){
             if (data.blockHash && !isValidBlock)
                 logger.debug(logSystem, logComponent, logSubCat, 'We thought a block was found but it was rejected by the daemon, share data: ' + shareData);
 
-            else if (isValidBlock)
-                logger.debug(logSystem, logComponent, logSubCat, 'Block found: ' + data.blockHash + ' by ' + data.worker);
-
+            else if (isValidBlock){
+                logger.debug(logSystem, logComponent, logSubCat, ' ');
+                logger.debug(logSystem, logComponent, logSubCat, ' ');
+                logger.debug(logSystem, logComponent, logSubCat, '-----------------------------------------------------------------------------');
+                logger.debug(logSystem, logComponent, logSubCat, 'Block found: ' + data.blockHash);
+                logger.debug(logSystem, logComponent, logSubCat, '         by: ' + data.worker);
+                logger.debug(logSystem, logComponent, logSubCat, '-----------------------------------------------------------------------------');
+                logger.debug(logSystem, logComponent, logSubCat, ' ');
+                logger.debug(logSystem, logComponent, logSubCat, ' ');
+            }
             if (isValidShare) {
                 if(data.shareDiff > 1000000000) {
                     logger.debug(logSystem, logComponent, logSubCat, 'Share was found with diff higher than 1.000.000.000!');
