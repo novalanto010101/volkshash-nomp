@@ -1,0 +1,14 @@
+{
+    "name": "UkkeyCoin",
+    "symbol": "UKY",
+    "algorithm": "yespower",
+
+  "peerMagic": "deadbeef",
+    "peerMagicTestnet": "cea2caff",
+    "txfee": 0.0001,
+    "blockTime": 60,
+    "explorer": {
+        "txURL": "http://explorer.ukkey3.space:8888/tx/",
+        "blockURL": "http://explorer.ukkey3.space:8888/block/"
+    }
+}
