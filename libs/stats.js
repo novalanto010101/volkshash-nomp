@@ -177,7 +177,7 @@ module.exports = function(logger, portalConfig, poolConfigs){
         _this.statPoolHistory.push(data);
     }
 
-    var magnitude = 100000000;
+    var magnitude = 1000;
     var coinPrecision = magnitude.toString().length - 1;
 
     function roundTo(n, digits) {
