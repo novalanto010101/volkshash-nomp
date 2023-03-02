@@ -1,20 +1,20 @@
 {
-    "name": "ukkey3-nomp",
+    "name": "volkshash-nomp",
     "version": "0.0.9",
-    "description": "UkkeyCoin (yespower) stratum mining pool based on NOMP",
+    "description": "volkshash (yespower) stratum mining pool based on NOMP",
     "keywords": [
         "stratum",
         "mining",
         "pool",
         "server",
         "poolserver",
-        "ukkeycoin",
+        "volkshashcoin",
         "uky",
         "yespower"
     ],
-    "homepage": "https://github.com/ukkeyHG/ukkey3-nomp",
+    "homepage": "https://github.com/VolkshashDEV/volkshash-nomp",
     "bugs": {
-        "url": "https://github.com/ukkeyHG/ukkey3-nomp/issues"
+        "url": "https://github.com/VolkshashDEV/volkshash-nomp/issues"
     },
     "license": "MIT",
     "author": "Joshua Yabut",
@@ -33,7 +33,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ukkeyHG/ukkey3-nomp.git"
+        "url": "https://github.com/VolkshashDEV/volkshash-nomp.git"
     },
     "dependencies": {
         "async": "^3.2.0",
@@ -51,7 +51,7 @@
         "nonce": "^1.0.4",
         "redis": "^2.8.0",
         "request": "^2.88.2",
-        "stratum-pool": "git+https://github.com/ukkeyHG/node-stratum-pool.git"
+        "stratum-pool": "git+https://github.com/VolkshashDEV/node-stratum-pool.git"
     },
     "engines": {
         "node": ">=8.11"
