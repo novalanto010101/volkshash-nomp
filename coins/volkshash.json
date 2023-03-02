@@ -1,0 +1,14 @@
+{
+    "name": "Volkshash",
+    "symbol": "VHH",
+    "algorithm": "yespower",
+
+  "peerMagic": "deadf1b1",
+    "peerMagicTestnet": "cea2caab",
+    "txfee": 100,
+    "blockTime": 60,
+    "explorer": {
+        "txURL": "",
+        "blockURL": ""
+    }
+}
